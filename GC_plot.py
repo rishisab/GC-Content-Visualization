@@ -40,6 +40,5 @@ plt.bar(ids,gc_value)
 plt.xlabel("Sequence IDS")
 plt.ylabel("GC percents")
 plt.title("GC content per sequence")
-
-plt.savefig("gc_plot.png")
+plt.savefig("gc_plot1.png")
 print("plot save as gc_plot")
