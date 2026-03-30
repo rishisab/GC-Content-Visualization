@@ -35,8 +35,8 @@ for id,sequence in sequence.items():
         gc_value.append(GC_percent)
 
 #plot
-plt.figure()
-plt.bar(id,gc_value)
+plt.figure(figsize=(8,5))
+plt.bar(ids,gc_value)
 plt.xlabel("Sequence IDS")
 plt.ylabel("GC percents")
 plt.title("GC content per sequence")
